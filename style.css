@@ -39,3 +39,95 @@ color: white;
     border-radius: 30px;
     border: none;
 }
+#about {
+padding: 100px 0;
+}
+#about img {
+    width: 600px;
+    height: 450px;
+    border-radius: 30px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 30px #494949;
+
+}
+#about p {
+    width: 80%;
+    text-align:justify ;
+}
+.cta {
+    height: 80vh;
+    background: linear-gradient(90deg, rgba(2,0,36,0,205) 0% rgb(105, 104, 103)60%), url('./icon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.testimonials {
+    padding: 20px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 30px #181717;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#reviews{
+    padding: 100px 0;
+
+}
+#reviews h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+#faq h2{
+    background-color: #fafafa;
+}
+ .faq-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #0d6efd;
+
+ }
+ .accordion-item {
+margin-bottom: 20px;
+border-radius: 30px !important;
+}
+.accordion-button{
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 30px !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0,03s;
+
+}
+.accordion-body{
+     border-left: 3px solid #0b5ed7;
+     padding: 10px 15px;
+     margin-left: 0;
+     background-color: #f8f9fa;
+}
+.accordion-button:not (.collapsed){
+    background-color: #0b5ed7;
+    color: #fff;
+}
+.accordion-button:hover{
+    background-color: #0b5ed7;
+    color: #fff;
+}
+footer {
+    padding: 50px  0;
+    background-color: #0b5ed7;
+
+}
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a {
+    color: rgb(16, 173, 235);
+}
+#footer .form-control {
+    border-radius: 7px 0 0 7px !important;
+}
